@@ -6,15 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27943ebe-5013-48cc-8dbe-2677754db0a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab1/Ex1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab1/Ex1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab2/App2/Fir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab2/App2/Fir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab2/App2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab2/App2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab2/App2/Window.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab2/App2/Window.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab1/Ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/App2/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/App2/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/App2/Fir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/App2/Fir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/App2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/App2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab2/App2/Window.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab2/App2/Window.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab2/App2/Controller.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
