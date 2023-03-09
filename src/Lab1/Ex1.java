@@ -13,7 +13,7 @@ public class Ex1 {
     }
 
     public void prod(){
-        System.out.println(num1Re*num2Re + num1Im*num2Im);
+        System.out.println((num1Re*num2Re - num1Im*num2Im) + "+" + (num1Re*num2Im + num1Im*num2Re) + "i");
     }
     static public void main(String[] args){
         Ex1 ex1 = new Ex1();

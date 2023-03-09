@@ -10,18 +10,5 @@ public class Controller extends Thread{
         this.setPriority(priority);
     }
 
-    public void run(){
 
-        int c=0;
-
-        while(c<1000){
-
-            for(int j=0;j<this.model.processorLoad;j++){
-
-                j++;j--;
-
-            }
-            c++; this.view.setProgressValue(model.id, c);
-        }
-    }
 }
