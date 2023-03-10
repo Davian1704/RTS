@@ -9,6 +9,8 @@ import java.util.Observer;
 public class Window extends JFrame implements Observer {
 
     ArrayList<JPanel> squares=new ArrayList<JPanel>();
+    int score;
+
 
     public Window() {
         setLayout(null);
@@ -16,6 +18,8 @@ public class Window extends JFrame implements Observer {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         init(3);
         this.setVisible(true);
+        score=0;
+
     }
     private void init(int n){
         for(int i=0 ;i<n; i++){
