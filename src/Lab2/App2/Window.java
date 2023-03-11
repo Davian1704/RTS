@@ -1,9 +1,11 @@
 package Lab2.App2;
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Observable;
 import java.util.Observer;
 import javax.swing.JFrame;
 import javax.swing.JProgressBar;
+import javax.swing.SwingUtilities;
 
 public class Window extends JFrame implements Observer {
     ArrayList<JProgressBar> bars=new ArrayList<JProgressBar>();
@@ -13,7 +15,6 @@ public class Window extends JFrame implements Observer {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         init(nrThreads);
         this.setVisible(true);
-
     }
 
     private void init(int n){
