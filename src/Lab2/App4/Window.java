@@ -53,9 +53,37 @@ public class Window extends JFrame implements Observer {
         this.addKeyListener(new CustomeKeyListener());
         this.add(player);
     }
+
+    public boolean collision(int firstX,int firstY, int firstWidth, int firstHeight, int secondX,int secondY, int secondWidth, int secondHeight){
+        if(firstX>=secondX && firstX<=secondX+secondWidth && firstY>=secondY && firstY<=secondY+secondHeight)
+            return true;
+        if(firstX+firstWidth>=secondX && firstX+firstWidth<=secondX+secondWidth && firstY>=secondY && firstY<=secondY+secondHeight)
+            return true;
+        if(firstX>=secondX && firstX<=secondX+secondWidth && firstY+firstHeight>=secondY && firstY+firstHeight<=secondY+secondHeight)
+            return true;
+        if(firstX+firstWidth>=secondX && firstX+firstWidth<=secondX+secondWidth && firstY+firstHeight>=secondY && firstY+firstHeight<=secondY+secondHeight)
+            return true;
+        return false;
+    }
+
     @Override
     public void update(Observable o, Object arg) {
         squares.get(((Lab2.App4.Square)o).getId()).setLocation(((Lab2.App4.Square)o).getX(),((Lab2.App4.Square)o).getY());
+        boolean hit=false;
+        for(int i=0;i<3;i++){
+            JPanel square = squares.get(i);
+            if(collision(player.getX(), player.getY(), player.getWidth(), player.getHeight(), square.getX(), square.getY(), square.getWidth(), square.getHeight())) {
+                player.setLocation(5, 330);
+                int oldLives = Integer.parseInt(lives.getText().split(" ")[1]);
+                if(oldLives>0) {
+                    lives.setText("Lives: " + (oldLives - 1));
+                }
+                else{
+                    ((Lab2.App4.Square)o).stop();
+                    this.remove(player);
+                }
+            }
+        }
     }
 
 
@@ -75,10 +103,7 @@ public class Window extends JFrame implements Observer {
                     String oldScore = score.getText().split(" ")[1];
                     score.setText("Score: "+ (Integer.parseInt(oldScore)+1));
                 }
-                boolean hit=false;
-                for(int i=0;i<3;i++){
-                    
-                }
+
             }
         }
 

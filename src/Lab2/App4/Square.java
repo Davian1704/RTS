@@ -55,6 +55,11 @@ public class Square extends Observable implements Runnable{
 
     }
 
+    public void stop(){
+        stopWork=true;
+    }
+
+
     public int getId() {
         return id;
     }
