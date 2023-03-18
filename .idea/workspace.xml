@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/RThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/WThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example4/ThreadGroupDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab3/Example5/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NCP6bnKckzgBzT1ym2mhgL1Muh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Lab3.Example5.Main">
+    <configuration name="Lab3.Example2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Example2.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab3.Example3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Example3.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Example3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lab3.Example5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Example5.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Example5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Example1.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadGroupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab3.Example4.ThreadGroupDemo" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab3.Example4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Lab3.Example5.Main" />
+        <item itemvalue="Application.ThreadGroupDemo" />
+        <item itemvalue="Application.Lab3.Example3.Main" />
+        <item itemvalue="Application.Lab3.Example2.Main" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="" />
+      <created>1679164921125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679164921125</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
