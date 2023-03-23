@@ -6,7 +6,6 @@ import java.util.Date;
 public class WThread extends Thread {
 
     FileService service;
-
     PrintWriter out;
     public WThread(FileService service,PrintWriter out) {
 
