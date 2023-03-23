@@ -52,7 +52,7 @@ public class Main {
         w1.start();
 
         w2.start();
-        
+
     }
 
 }

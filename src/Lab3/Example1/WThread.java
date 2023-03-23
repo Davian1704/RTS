@@ -1,13 +1,17 @@
 package Lab3.Example1;
 
+import java.io.PrintWriter;
+import java.util.Date;
+
 public class WThread extends Thread {
 
     FileService service;
 
-    public WThread(FileService service) {
+    PrintWriter out;
+    public WThread(FileService service,PrintWriter out) {
 
         this.service = service;
-
+        this.out=out;
     }
 
     public void run() {
@@ -18,7 +22,14 @@ public class WThread extends Thread {
 
                     String.valueOf(Math.round(Math.random() * 100));
 
-            service.write(msg);
+            synchronized(this){
+                Date date = new Date(System.currentTimeMillis());
+                out.println("Date: " + date);
+                out.println("Message: " + msg);
+                out.flush();
+                notifyAll();
+            }
+
 
             try {
 

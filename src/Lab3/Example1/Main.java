@@ -8,9 +8,9 @@ public class Main {
 
         FileService service = new FileService("messages.txt");
 
-        RThread reader = new RThread(service);
+        RThread reader = new RThread(service,service.getIn());
 
-        WThread writer = new WThread(service);
+        WThread writer = new WThread(service,service.getOut());
 
         reader.start();
 
