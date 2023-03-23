@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example1/WThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example1/WThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/WThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/WThread.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,7 @@
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Ex1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab1.Ex1" />
       <module name="RTS" />
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lab3.Example5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab3.Example5.Main" />
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2.App3.Main" />
       <module name="RTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab3.Example5.*" />
+          <option name="PATTERN" value="Lab2.App3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab2.App3.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab2.App4.Main" />
       <module name="RTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab2.App3.*" />
+          <option name="PATTERN" value="Lab2.App4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.Lab3.Example3.Main" />
-        <item itemvalue="Application.Lab3.Example5.Main" />
       </list>
     </recent_temporary>
   </component>
