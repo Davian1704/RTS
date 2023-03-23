@@ -11,7 +11,7 @@ public class Main {
 
     }
 
-    public boolean isStart() {
+    public static boolean isStart() {
         return true;
     }
 }

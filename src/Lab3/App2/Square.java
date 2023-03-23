@@ -19,7 +19,7 @@ public class Square extends Observable implements Runnable{
     public void run() {
         try {
             if (t != null) t.join();
-            while(Main.){
+            while(Main.isStart()){
                 for(int j=0;j<this.processorLoad;j+=1){
                     j--;j++;
                 }

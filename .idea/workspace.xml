@@ -5,21 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab3/App2/Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/App2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/App2/Square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/RThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/RThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/WThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example1/WThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example1/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example1/FileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example1/RThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example1/RThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example1/WThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example1/WThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example1/messages.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example1/messages.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab3/Example3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab3/App2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/App2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab3/App2/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/App2/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
