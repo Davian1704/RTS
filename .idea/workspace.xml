@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/RThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example1/WThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Buffer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example2/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example4/ThreadGroupDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab3/Example5/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab3/Example3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab3/Example3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +32,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab3.Example5.Main">
+  <component name="RunManager" selected="Application.Lab3.Example3.Main">
     <configuration name="Lab3.Example2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.Example2.Main" />
       <module name="RTS" />
@@ -119,9 +109,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab3.Example3.Main" />
         <item itemvalue="Application.Lab3.Example5.Main" />
         <item itemvalue="Application.ThreadGroupDemo" />
-        <item itemvalue="Application.Lab3.Example3.Main" />
         <item itemvalue="Application.Lab3.Example2.Main" />
         <item itemvalue="Application.Main" />
       </list>
