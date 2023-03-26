@@ -1,9 +1,5 @@
 package Lab2.App3;
 
-import Lab2.App2.Fir;
-import Lab2.App3.Square;
-import Lab2.App3.Window;
-
 public class Main {
     private static final int processorLoad=1000000;
 
