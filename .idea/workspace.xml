@@ -5,13 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App1/ExecutionThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App2/ExecutionThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App3/ExecutionThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThreadGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/App4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example2/ActivityDiagram.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example2/ActivityDiagram.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/ExecutionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/ExecutionThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App1/ExecutionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App1/ExecutionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,16 +39,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Davian/Desktop/Programe/GitHub/RTS",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example5" />
@@ -54,7 +47,7 @@
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab4.App3.Main">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Lab3.Example5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab3.Example5.Main" />
       <module name="RTS" />
@@ -94,6 +87,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab4.App4.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab4.App4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.App2.Main" />
       <module name="RTS" />
@@ -107,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadGroupDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab3.Example4.ThreadGroupDemo" />
-      <module name="RTS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab3.Example4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Lab4.App1.Main" />
         <item itemvalue="Application.Lab4.App3.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Lab4.App1.Main" />
         <item itemvalue="Application.Lab3.Example5.Main" />
-        <item itemvalue="Application.ThreadGroupDemo" />
       </list>
     </recent_temporary>
   </component>
