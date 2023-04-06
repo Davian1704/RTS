@@ -5,16 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThreadGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab4/App4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/App3/ClassDiagram.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/ClassDiagram-example.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab4/SequenceDiagram-example.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab3/Example2/ActivityDiagram.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab3/Example2/ActivityDiagram.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/ExecutionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/ExecutionThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab4/App1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/App1/ExecutionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App1/ExecutionThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab4/App1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab4/App4/ExecutionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab4/App4/ExecutionThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab4/App4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab4/App4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App2/ExecutionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App2/ExecutionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App3/ExecutionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App3/ExecutionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThreadGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App4/ExecutionThreadGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab4/App4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab4/App4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2NCP6bnKckzgBzT1ym2mhgL1Muh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -116,9 +124,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Lab4.App1.Main" />
         <item itemvalue="Application.Lab4.App3.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Lab4.App1.Main" />
         <item itemvalue="Application.Lab3.Example5.Main" />
       </list>
     </recent_temporary>
@@ -144,5 +152,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
