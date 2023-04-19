@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quiz1/Subiect1/FirstThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quiz1/Subiect1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quiz1/Subiect1/SecondThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Quiz1/Subiect1/ThirdThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quiz1/Subiect2/ExecutionThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz1/Subiect2/ExecutionThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quiz1/Subiect2/LoopThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz1/Subiect2/LoopThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quiz1/Subiect2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Quiz1/Subiect2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,20 +52,7 @@
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Quiz1.Subiect2.Main">
-    <configuration name="Lab3.Example5.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab3.Example5.Main" />
-      <module name="RTS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab3.Example5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Quiz1.Subiect1.Main">
     <configuration name="Lab4.App1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.App1.Main" />
       <module name="RTS" />
@@ -105,6 +92,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Quiz1.Subiect1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Quiz1.Subiect1.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Quiz1.Subiect1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Quiz1.Subiect2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quiz1.Subiect2.Main" />
       <module name="RTS" />
@@ -120,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Quiz1.Subiect1.Main" />
         <item itemvalue="Application.Quiz1.Subiect2.Main" />
         <item itemvalue="Application.Lab4.App3.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Lab4.App1.Main" />
-        <item itemvalue="Application.Lab3.Example5.Main" />
       </list>
     </recent_temporary>
   </component>
