@@ -28,11 +28,13 @@ public class ExecutionThread extends Thread{
                 i++;i--;
             }
         }
+        synchronized (monitor2){
         System.out.println(this.getName() + " - STATE 3");
         try {
             Thread.sleep(Math.round(Math.random() * sleepvalue * 500));
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+            }
         }
         System.out.println(this.getName() + " - STATE 4");
     }
