@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/ClassDiagram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/StateMachine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App4/Class.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App4/StateMachine.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +29,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/Lab5/App3/Main.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/Quiz1/Test/Main.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -34,27 +37,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lab5/App2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/Davian/Desktop/Programe/GitHub/RTS/src/Lab5/App4"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab5\App4" />
+      <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab5\App2Lab4" />
       <recent name="C:\Users\davia\Desktop\Programe\Github\RTS\src\Lab5\App2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab5\App4" />
+      <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab5\App2Lab4" />
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example5" />
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example4" />
       <recent name="C:\Users\davia\Desktop\Programe\Github\RTS\src\Lab3\Example1" />
-      <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Lab4.App3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.App3.Main" />
+  <component name="RunManager" selected="Application.Lab5.App4.Main">
+    <configuration name="Lab5.App4.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab5.App4.Main" />
       <module name="RTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab4.App3.*" />
+          <option name="PATTERN" value="Lab5.App4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab5.App2Lab4.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lab5.App2Lab4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Quiz1.Subiect1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Quiz1.Subiect1.Main" />
       <module name="RTS" />
@@ -101,26 +122,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Quiz1.Subiect2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quiz1.Subiect2.Main" />
-      <module name="RTS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Quiz1.Subiect2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab5.App4.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Quiz1.Subiect1.Main" />
-        <item itemvalue="Application.Quiz1.Subiect2.Main" />
-        <item itemvalue="Application.Lab4.App3.Main" />
       </list>
     </recent_temporary>
   </component>
