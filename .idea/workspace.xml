@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App2/Sequence.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Quiz1/Test/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab5/App3/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +35,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Lab5/App2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\davia\Desktop\Programe\Github\RTS\src\Lab5\App2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example5" />
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example4" />
@@ -45,7 +45,7 @@
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Lab4.App3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab4.App3.Main" />
       <module name="RTS" />
@@ -72,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab4.App2.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lab5.App3.Main" />
       <module name="RTS" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lab4.App2.*" />
+          <option name="PATTERN" value="Lab5.App3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Quiz1.Subiect1.Main" />
         <item itemvalue="Application.Quiz1.Subiect2.Main" />
         <item itemvalue="Application.Lab4.App3.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
