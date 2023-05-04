@@ -23,23 +23,30 @@ class ExecutionThread extends Thread{
             i++;i--;
         }
         if(this.l1.tryLock()){
-            System.out.println(this.getName() + " - STATE 2");
-            k=(int)Math.round(Math.random() * (activityMax2-activityMin2)+activityMin2);
-            for(int i=1;i<k;i++){
-                i++;i--;
-            }
-
-            if(this.l2.tryLock()) {
-                System.out.println(this.getName() + " - STATE 3");
-                try {
-                    Thread.sleep(sleepVal*1000);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
+            try {
+                System.out.println(this.getName() + " - STATE 2");
+                k = (int) Math.round(Math.random() * (activityMax2 - activityMin2) + activityMin2);
+                for (int i = 1; i < k; i++) {
+                    i++;
+                    i--;
                 }
-                l1.unlock();
-                l2.unlock();
-                System.out.println(this.getName() + " - STATE 4");
+                if (this.l2.tryLock()) {
+                    try {
+                        System.out.println(this.getName() + " - STATE 3");
+                        Thread.sleep(sleepVal * 1000);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    finally {
+                        l2.unlock();
+                    }
+                }
             }
+            finally {
+                l1.unlock();
+
+            }
+            System.out.println(this.getName() + " - STATE 4");
 
         }
     }

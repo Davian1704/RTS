@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/ClassDiagram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/StateMachine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App4/Class.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App4/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab5/App4/StateMachine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L6App2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab5/App2Lab4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab5/App2Lab4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab5/App4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab5/App4/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +34,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/Davian/Desktop/Programe/GitHub/RTS/src/Lab5/App4"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab5\App4" />
