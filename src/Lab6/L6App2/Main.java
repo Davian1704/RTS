@@ -10,7 +10,21 @@ import java.util.concurrent.CyclicBarrier;
 public class Main {
     public static void main(String args[]){
         try {
-            FileWriter writer = new FileWriter("results.txt");
+            FileWriter writer = new FileWriter("src\\Lab6\\L6App2\\results.txt",true);
+            CyclicBarrier barrier = new CyclicBarrier(3, new Runnable() {
+                @Override
+                public void run() {
+                    System.out.print('\n');
+                }
+            });
+            writer.write("Something");
+            Integer monitor1 = new Integer(1);
+            Fir fir1 = new Fir(barrier,writer,monitor1);
+            Fir fir2 = new Fir(barrier,writer,monitor1);
+            Fir fir3 = new Fir(barrier,writer,monitor1);
+            fir1.start();
+            fir2.start();
+            fir3.start();
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -19,15 +33,15 @@ public class Main {
 
 class Fir extends Thread{
     CyclicBarrier barrier;
-    FileWriter writer;
-    BufferedWriter bufferedWriter;
+    Integer monitor1;
+    volatile FileWriter fileWriter;
     static int result=0;
     int iterations;
-    public Fir(CyclicBarrier barrier, FileWriter writer){
+    public Fir(CyclicBarrier barrier,FileWriter fileWriter,Integer monitor1){
         this.barrier=barrier;
-        this.writer=writer;
         this.iterations=0;
-        this.bufferedWriter=new BufferedWriter(writer);
+        this.fileWriter=fileWriter;
+        this.monitor1=monitor1;
     }
 
     public void run(){
@@ -42,10 +56,24 @@ class Fir extends Thread{
             } catch (BrokenBarrierException e) {
                 e.printStackTrace();
             }
-            if(result==0){
-
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-
+            System.out.println(result);
+            if(result==0){
+                ///try with locks
+                synchronized (monitor1) {
+                    try {
+                        fileWriter.write(this.getName() + iterations + '\n');
+                        System.out.println(this.getName() + " : " + iterations + '\n');
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }
+            iterations++;
         }
     }
 }
