@@ -1,12 +1,15 @@
 package Lab6.L7App3;
 
+import java.util.concurrent.CountDownLatch;
+
 public class Main {
     public static void main(String args[]){
+        CountDownLatch latch = new CountDownLatch(3);
         Integer monitor1=new Integer(1);
         Integer monitor2=new Integer(2);
-        GeneratorThread generatorThread = new GeneratorThread(monitor1,monitor2,7,2,3,"Generator");
-        ExecutionThread ex1 = new ExecutionThread(monitor1,monitor2,5,3,6,"Thread 1");
-        ExecutionThread ex2 = new ExecutionThread(monitor1,monitor2,3,4,6,"Thread 2");
+        GeneratorThread generatorThread = new GeneratorThread(latch,monitor1,monitor2,7,2,3,"Generator");
+        ExecutionThread ex1 = new ExecutionThread(latch,monitor1,null,5,3,6,"Thread 1");
+        ExecutionThread ex2 = new ExecutionThread(latch,null,monitor2,3,4,6,"Thread 2");
         generatorThread.start();
         ex1.start();
         ex2.start();
@@ -17,7 +20,9 @@ class GeneratorThread extends Thread{
     Integer monitor1, monitor2;
     int sleepVal, actMin, actMax;
 
-    public GeneratorThread(Integer monitor1, Integer monitor2, int sleepVal, int actMin, int actMax, String name){
+    CountDownLatch latch;
+    public GeneratorThread(CountDownLatch latch,Integer monitor1, Integer monitor2, int sleepVal, int actMin, int actMax, String name){
+        this.latch = latch;
         this.monitor1=monitor1;
         this.monitor2=monitor2;
         this.sleepVal=sleepVal;
@@ -42,17 +47,28 @@ class GeneratorThread extends Thread{
             monitor1.notify();
         }
         synchronized (monitor2){
-            k++;
+
         }
         System.out.println(this.getName() + " STATE 3");
+
+            latch.countDown();
+
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println(this.getName() + " Terminated");
     }
 }
 
 class ExecutionThread extends Thread{
+    CountDownLatch latch;
     Integer monitor1, monitor2;
     int sleepVal, actMin, actMax;
 
-    public ExecutionThread(Integer monitor1, Integer monitor2, int sleepVal, int actMin, int actMax, String name){
+    public ExecutionThread(CountDownLatch latch,Integer monitor1, Integer monitor2, int sleepVal, int actMin, int actMax, String name){
+        this.latch=latch;
         this.monitor1=monitor1;
         this.monitor2=monitor2;
         this.sleepVal=sleepVal;
@@ -88,6 +104,14 @@ class ExecutionThread extends Thread{
         }
         System.out.println(this.getName() + " STATE 3");
 
+            latch.countDown();
+
+        try {
+            latch.await();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println(this.getName() + " Terminated");
 
     }
 }
