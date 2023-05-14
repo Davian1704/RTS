@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1B/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App2A/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App2B/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1A/ClassDiagram.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1A/SequenceDiagram.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1A/StateMachine.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1B/ClassDiagram.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1B/SequenceDiagram.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lab6/L7App1B/StateMachine.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab6/L7App3/ExecutionThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab6/L7App3/ExecutionThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab6/L7App3/GeneratorThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab6/L7App3/GeneratorThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Lab6/L7App3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Lab6/L7App3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab6/L7App3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/L7App3/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
