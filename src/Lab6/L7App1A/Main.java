@@ -6,14 +6,17 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
-    public static void main(String args[]){
+    public static void main(String args[]) throws BrokenBarrierException, InterruptedException {
         Lock lock1 =new ReentrantLock();
         Lock lock2 = new ReentrantLock();
         CyclicBarrier barrier = new CyclicBarrier(2);
-        ExecThread t1 = new ExecThread(barrier,lock1,lock2,2,4,4,6,4);
-        ExecThread t2 = new ExecThread(barrier,lock1,lock2,3,5,5,7,5);
-        t1.start();
-        t2.start();
+        while(true) {
+            new ExecThread(barrier, lock1, lock2, 2, 4, 4, 6, 4).start();
+            new ExecThread(barrier, lock1, lock2, 3, 5, 5, 7, 5).start();
+            barrier.await();
+            barrier.reset();
+            Thread.sleep(5000);
+        }
     }
 }
 
@@ -36,7 +39,7 @@ class ExecThread extends Thread{
     }
 
     public void run(){
-        while(true) {
+
             System.out.println(this.getName() + " State 1");
             int k = (int) Math.round(Math.random() * (activityMax1 - activityMin1) + activityMin1);
             int i;
@@ -61,13 +64,13 @@ class ExecThread extends Thread{
                 throw new RuntimeException(e);
             }
             System.out.println(this.getName() + " State 4");
-            try {
-                barrier.await();
-            } catch (InterruptedException e) {
-                throw new RuntimeException(e);
-            } catch (BrokenBarrierException e) {
-                throw new RuntimeException(e);
-            }
+        try {
+            barrier.await();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (BrokenBarrierException e) {
+            e.printStackTrace();
         }
+        System.out.println(this.getName() + " has ended");
     }
 }
