@@ -9,7 +9,7 @@ public class Main {
     public static void main(String args[]) throws BrokenBarrierException, InterruptedException {
         Lock lock1 =new ReentrantLock();
         Lock lock2 = new ReentrantLock();
-        CyclicBarrier barrier = new CyclicBarrier(2);
+        CyclicBarrier barrier = new CyclicBarrier(3);
         while(true) {
             new ExecThread(barrier, lock1, lock2, 2, 4, 4, 6, 4).start();
             new ExecThread(barrier, lock1, lock2, 3, 5, 5, 7, 5).start();
@@ -47,6 +47,7 @@ class ExecThread extends Thread{
                 i++;
                 i--;
             }
+
             lock1.lock();
             System.out.println(this.getName() + " State 2");
             lock1.unlock();

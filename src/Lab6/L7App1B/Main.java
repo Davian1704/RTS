@@ -6,11 +6,12 @@ import java.util.concurrent.Semaphore;
 public class Main {
     public static void main(String args[]){
         Semaphore semaphore = new Semaphore(2);
-        CountDownLatch latch = new CountDownLatch(2);
-        ExecThread t1 = new ExecThread(latch,semaphore,2,4,4,6,4);
-        ExecThread t2 = new ExecThread(latch,semaphore,3,5,5,7,5);
-        t1.start();
-        t2.start();
+        while(true) {
+            CountDownLatch latch = new CountDownLatch(3);
+            new ExecThread(latch, semaphore, 2, 4, 4, 6, 4);
+            new ExecThread(latch, semaphore, 3, 5, 5, 7, 5);
+
+        }
     }
 }
 
