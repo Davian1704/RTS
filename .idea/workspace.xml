@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lab6/L7App1A/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/L7App1A/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Lab6/L7App2B/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lab6/L7App2B/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\davia\Desktop\Programe\Github\RTS\src\Lab3\Example1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Lab6.L7App1B.Main">
+  <component name="RunManager" selected="Application.Lab6.L7App2B.Main">
     <configuration name="Lab6.L7App1A.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab6.L7App1A.Main" />
       <module name="RTS" />
@@ -123,9 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lab6.L7App2B.Main" />
         <item itemvalue="Application.Lab6.L7App1B.Main" />
         <item itemvalue="Application.Lab6.L7App1A.Main" />
-        <item itemvalue="Application.Lab6.L7App2B.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
       </list>

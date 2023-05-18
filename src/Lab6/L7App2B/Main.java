@@ -6,16 +6,16 @@ import java.util.concurrent.Semaphore;
 
 
 public class Main {
-    public static void main(String args[]){
-        CyclicBarrier barrier = new CyclicBarrier(3);
+    public static void main(String args[]) throws BrokenBarrierException, InterruptedException {
+        CyclicBarrier barrier = new CyclicBarrier(4);
         Semaphore semaphore = new Semaphore(2);
-
-        ExecThread t1 = new ExecThread(barrier,semaphore,2,4,4);
-        ExecThread t2 = new ExecThread(barrier,semaphore,3,6,3);
-        ExecThread t3 = new ExecThread(barrier,semaphore,2,5,5);
-        t1.start();
-        t2.start();
-        t3.start();
+        while(true) {
+            new ExecThread(barrier, semaphore, 2, 4, 4).start();
+            new ExecThread(barrier, semaphore, 3, 6, 3).start();
+            new ExecThread(barrier, semaphore, 2, 5, 5).start();
+            barrier.await();
+            barrier.reset();
+        }
     }
 }
 
@@ -36,7 +36,7 @@ class ExecThread extends Thread{
     }
 
     public void run(){
-        while(true){
+
             System.out.println(this.getName() + " State 1");
             if(this.getName() == "Thread-1") {
                 try {
@@ -72,7 +72,7 @@ class ExecThread extends Thread{
             } catch (BrokenBarrierException e) {
                 throw new RuntimeException(e);
             }
-        }
+
     }
 
 }
