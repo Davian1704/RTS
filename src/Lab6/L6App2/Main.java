@@ -10,7 +10,7 @@ import java.util.concurrent.CyclicBarrier;
 public class Main {
     public static void main(String args[]){
         try {
-            FileWriter writer = new FileWriter("src\\Lab6\\L6App2\\results.txt",true);
+            FileWriter writer = new FileWriter("results.txt",true);
             CyclicBarrier barrier = new CyclicBarrier(3, new Runnable() {
                 @Override
                 public void run() {
