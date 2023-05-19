@@ -5,20 +5,20 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class Main {
-    public static void main(String args[]) {
-        CountDownLatch latch = new CountDownLatch(2);
+    public static void main(String args[]) throws InterruptedException {
+
         Lock lock1 = new ReentrantLock();
         Lock lock2 = new ReentrantLock();
-        while (true)
-            ExecThread t1 = new ExecThread(latch, lock1, null, 2, 4, 4);
-        ExecThread t2 = new ExecThread(latch, lock1, lock2, 3, 6, 3);
-        ExecThread t3 = new ExecThread(latch, null, lock2, 2, 5, 5);
-        t1.start();
-        t2.start();
-        t3.start();
-    }
+        while (true) {
+            CountDownLatch latch = new CountDownLatch(4);
+            new ExecThread(latch, lock1, null, 2, 4, 4).start();
+            new ExecThread(latch, lock1, lock2, 3, 6, 3).start();
+            new ExecThread(latch, null, lock2, 2, 5, 5).start();
+            latch.await();
+        }
     }
 }
+
 
 
 class ExecThread extends Thread{
