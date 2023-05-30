@@ -3,7 +3,7 @@ package Colocviu.Ex1;
 import Colocviu.Ex1.Interfaces.PlaceTemplate;
 
 public class IntPlace implements PlaceTemplate {
-    Integer value;
+    Float value;
     String Name;
 
     public IntPlace(String name, Object value) {
@@ -17,7 +17,7 @@ public class IntPlace implements PlaceTemplate {
 
     @Override
     public void Set(Object value) {
-        this.value = (Integer) value;
+        this.value = (Float) value;
     }
 
     @Override

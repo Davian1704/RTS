@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74c0f815-8ee4-4d12-a47f-37d94998767a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/IntPlace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Interfaces/PlaceHandlerTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Interfaces/PlaceTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Interfaces/TransitionTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/PlaceHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RTS/Colocviu/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RTS/Colocviu/Thread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/IntPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/IntPlace.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Process.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colocviu/Ex1/Process.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colocviu/Ex1/Process_Transition5.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +43,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/Davian/Desktop/Programe/GitHub/RTS/src/Colocviu/Ex1"
-  }
-}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Colocviu\Ex1" />
@@ -67,26 +58,13 @@
       <recent name="C:\Users\Davian\Desktop\Programe\GitHub\RTS\src\Lab3\Example4" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Colocviu.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Colocviu.Main" />
       <module name="RTS" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Colocviu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lab6.L7App1B.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lab6.L7App1B.Main" />
-      <module name="RTS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lab6.L7App1B.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,6 +98,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Colocviu.Ex1.Main" />
+      <module name="RTS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Colocviu.Ex1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lab8.Main" />
       <module name="RTS" />
@@ -135,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Colocviu.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Lab6.L7App2B.Main" />
-        <item itemvalue="Application.Lab6.L7App1B.Main" />
       </list>
     </recent_temporary>
   </component>
